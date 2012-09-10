@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A129E0C15FE265A00B2ED33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A129E0B15FE265A00B2ED33 /* UIKit.framework */; };
+		6A129E0E15FE265A00B2ED33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A129E0D15FE265A00B2ED33 /* Foundation.framework */; };
+		6A129E1015FE265A00B2ED33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A129E0F15FE265A00B2ED33 /* CoreGraphics.framework */; };
+		6A129E1615FE265A00B2ED33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A129E1415FE265A00B2ED33 /* InfoPlist.strings */; };
+		6A129E1815FE265A00B2ED33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A129E1715FE265A00B2ED33 /* main.m */; };
+		6A129E1C15FE265A00B2ED33 /* PrincipalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A129E1B15FE265A00B2ED33 /* PrincipalAppDelegate.m */; };
+		6A129E1F15FE265A00B2ED33 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A129E1D15FE265A00B2ED33 /* MainStoryboard.storyboard */; };
+		6A129E2215FE265A00B2ED33 /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A129E2115FE265A00B2ED33 /* PrincipalViewController.m */; };
+		6A129E2A15FE265A00B2ED33 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A129E2915FE265A00B2ED33 /* SenTestingKit.framework */; };
+		6A129E2B15FE265A00B2ED33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A129E0B15FE265A00B2ED33 /* UIKit.framework */; };
+		6A129E2C15FE265A00B2ED33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A129E0D15FE265A00B2ED33 /* Foundation.framework */; };
+		6A129E3415FE265B00B2ED33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A129E3215FE265B00B2ED33 /* InfoPlist.strings */; };
+		6A129E3715FE265B00B2ED33 /* AcelerometroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A129E3615FE265B00B2ED33 /* AcelerometroTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A129E2D15FE265A00B2ED33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A129DFE15FE265A00B2ED33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A129E0615FE265A00B2ED33;
+			remoteInfo = Acelerometro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A129E0715FE265A00B2ED33 /* Acelerometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acelerometro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A129E0B15FE265A00B2ED33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A129E0D15FE265A00B2ED33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A129E0F15FE265A00B2ED33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A129E1315FE265A00B2ED33 /* Acelerometro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acelerometro-Info.plist"; sourceTree = "<group>"; };
+		6A129E1515FE265A00B2ED33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A129E1715FE265A00B2ED33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A129E1915FE265A00B2ED33 /* Acelerometro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acelerometro-Prefix.pch"; sourceTree = "<group>"; };
+		6A129E1A15FE265A00B2ED33 /* PrincipalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalAppDelegate.h; sourceTree = "<group>"; };
+		6A129E1B15FE265A00B2ED33 /* PrincipalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalAppDelegate.m; sourceTree = "<group>"; };
+		6A129E1E15FE265A00B2ED33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A129E2015FE265A00B2ED33 /* PrincipalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		6A129E2115FE265A00B2ED33 /* PrincipalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
+		6A129E2815FE265A00B2ED33 /* AcelerometroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcelerometroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A129E2915FE265A00B2ED33 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A129E3115FE265A00B2ED33 /* AcelerometroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AcelerometroTests-Info.plist"; sourceTree = "<group>"; };
+		6A129E3315FE265B00B2ED33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A129E3515FE265B00B2ED33 /* AcelerometroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcelerometroTests.h; sourceTree = "<group>"; };
+		6A129E3615FE265B00B2ED33 /* AcelerometroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcelerometroTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A129E0415FE265A00B2ED33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A129E0C15FE265A00B2ED33 /* UIKit.framework in Frameworks */,
+				6A129E0E15FE265A00B2ED33 /* Foundation.framework in Frameworks */,
+				6A129E1015FE265A00B2ED33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A129E2415FE265A00B2ED33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A129E2A15FE265A00B2ED33 /* SenTestingKit.framework in Frameworks */,
+				6A129E2B15FE265A00B2ED33 /* UIKit.framework in Frameworks */,
+				6A129E2C15FE265A00B2ED33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A129DFC15FE265A00B2ED33 = {
+			isa = PBXGroup;
+			children = (
+				6A129E1115FE265A00B2ED33 /* Acelerometro */,
+				6A129E2F15FE265A00B2ED33 /* AcelerometroTests */,
+				6A129E0A15FE265A00B2ED33 /* Frameworks */,
+				6A129E0815FE265A00B2ED33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A129E0815FE265A00B2ED33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A129E0715FE265A00B2ED33 /* Acelerometro.app */,
+				6A129E2815FE265A00B2ED33 /* AcelerometroTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A129E0A15FE265A00B2ED33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A129E0B15FE265A00B2ED33 /* UIKit.framework */,
+				6A129E0D15FE265A00B2ED33 /* Foundation.framework */,
+				6A129E0F15FE265A00B2ED33 /* CoreGraphics.framework */,
+				6A129E2915FE265A00B2ED33 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A129E1115FE265A00B2ED33 /* Acelerometro */ = {
+			isa = PBXGroup;
+			children = (
+				6A129E1A15FE265A00B2ED33 /* PrincipalAppDelegate.h */,
+				6A129E1B15FE265A00B2ED33 /* PrincipalAppDelegate.m */,
+				6A129E1D15FE265A00B2ED33 /* MainStoryboard.storyboard */,
+				6A129E2015FE265A00B2ED33 /* PrincipalViewController.h */,
+				6A129E2115FE265A00B2ED33 /* PrincipalViewController.m */,
+				6A129E1215FE265A00B2ED33 /* Supporting Files */,
+			);
+			path = Acelerometro;
+			sourceTree = "<group>";
+		};
+		6A129E1215FE265A00B2ED33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A129E1315FE265A00B2ED33 /* Acelerometro-Info.plist */,
+				6A129E1415FE265A00B2ED33 /* InfoPlist.strings */,
+				6A129E1715FE265A00B2ED33 /* main.m */,
+				6A129E1915FE265A00B2ED33 /* Acelerometro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A129E2F15FE265A00B2ED33 /* AcelerometroTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A129E3515FE265B00B2ED33 /* AcelerometroTests.h */,
+				6A129E3615FE265B00B2ED33 /* AcelerometroTests.m */,
+				6A129E3015FE265A00B2ED33 /* Supporting Files */,
+			);
+			path = AcelerometroTests;
+			sourceTree = "<group>";
+		};
+		6A129E3015FE265A00B2ED33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A129E3115FE265A00B2ED33 /* AcelerometroTests-Info.plist */,
+				6A129E3215FE265B00B2ED33 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A129E0615FE265A00B2ED33 /* Acelerometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A129E3A15FE265B00B2ED33 /* Build configuration list for PBXNativeTarget "Acelerometro" */;
+			buildPhases = (
+				6A129E0315FE265A00B2ED33 /* Sources */,
+				6A129E0415FE265A00B2ED33 /* Frameworks */,
+				6A129E0515FE265A00B2ED33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Acelerometro;
+			productName = Acelerometro;
+			productReference = 6A129E0715FE265A00B2ED33 /* Acelerometro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A129E2715FE265A00B2ED33 /* AcelerometroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A129E3D15FE265B00B2ED33 /* Build configuration list for PBXNativeTarget "AcelerometroTests" */;
+			buildPhases = (
+				6A129E2315FE265A00B2ED33 /* Sources */,
+				6A129E2415FE265A00B2ED33 /* Frameworks */,
+				6A129E2515FE265A00B2ED33 /* Resources */,
+				6A129E2615FE265A00B2ED33 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A129E2E15FE265A00B2ED33 /* PBXTargetDependency */,
+			);
+			name = AcelerometroTests;
+			productName = AcelerometroTests;
+			productReference = 6A129E2815FE265A00B2ED33 /* AcelerometroTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A129DFE15FE265A00B2ED33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Principal;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = rafapaulino.com;
+			};
+			buildConfigurationList = 6A129E0115FE265A00B2ED33 /* Build configuration list for PBXProject "Acelerometro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A129DFC15FE265A00B2ED33;
+			productRefGroup = 6A129E0815FE265A00B2ED33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A129E0615FE265A00B2ED33 /* Acelerometro */,
+				6A129E2715FE265A00B2ED33 /* AcelerometroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A129E0515FE265A00B2ED33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A129E1615FE265A00B2ED33 /* InfoPlist.strings in Resources */,
+				6A129E1F15FE265A00B2ED33 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A129E2515FE265A00B2ED33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A129E3415FE265B00B2ED33 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A129E2615FE265A00B2ED33 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A129E0315FE265A00B2ED33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A129E1815FE265A00B2ED33 /* main.m in Sources */,
+				6A129E1C15FE265A00B2ED33 /* PrincipalAppDelegate.m in Sources */,
+				6A129E2215FE265A00B2ED33 /* PrincipalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A129E2315FE265A00B2ED33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A129E3715FE265B00B2ED33 /* AcelerometroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A129E2E15FE265A00B2ED33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A129E0615FE265A00B2ED33 /* Acelerometro */;
+			targetProxy = 6A129E2D15FE265A00B2ED33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A129E1415FE265A00B2ED33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A129E1515FE265A00B2ED33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A129E1D15FE265A00B2ED33 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A129E1E15FE265A00B2ED33 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6A129E3215FE265B00B2ED33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A129E3315FE265B00B2ED33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A129E3815FE265B00B2ED33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A129E3915FE265B00B2ED33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A129E3B15FE265B00B2ED33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acelerometro/Acelerometro-Prefix.pch";
+				INFOPLIST_FILE = "Acelerometro/Acelerometro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A129E3C15FE265B00B2ED33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acelerometro/Acelerometro-Prefix.pch";
+				INFOPLIST_FILE = "Acelerometro/Acelerometro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A129E3E15FE265B00B2ED33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Acelerometro.app/Acelerometro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acelerometro/Acelerometro-Prefix.pch";
+				INFOPLIST_FILE = "AcelerometroTests/AcelerometroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A129E3F15FE265B00B2ED33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Acelerometro.app/Acelerometro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acelerometro/Acelerometro-Prefix.pch";
+				INFOPLIST_FILE = "AcelerometroTests/AcelerometroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A129E0115FE265A00B2ED33 /* Build configuration list for PBXProject "Acelerometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A129E3815FE265B00B2ED33 /* Debug */,
+				6A129E3915FE265B00B2ED33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A129E3A15FE265B00B2ED33 /* Build configuration list for PBXNativeTarget "Acelerometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A129E3B15FE265B00B2ED33 /* Debug */,
+				6A129E3C15FE265B00B2ED33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A129E3D15FE265B00B2ED33 /* Build configuration list for PBXNativeTarget "AcelerometroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A129E3E15FE265B00B2ED33 /* Debug */,
+				6A129E3F15FE265B00B2ED33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A129DFE15FE265A00B2ED33 /* Project object */;
+}
