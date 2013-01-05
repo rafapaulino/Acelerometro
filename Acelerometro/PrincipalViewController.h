@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
 
 @interface PrincipalViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIImageView *bola;
 @end

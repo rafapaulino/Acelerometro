@@ -20,6 +20,8 @@
 		6A129E2C15FE265A00B2ED33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A129E0D15FE265A00B2ED33 /* Foundation.framework */; };
 		6A129E3415FE265B00B2ED33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A129E3215FE265B00B2ED33 /* InfoPlist.strings */; };
 		6A129E3715FE265B00B2ED33 /* AcelerometroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A129E3615FE265B00B2ED33 /* AcelerometroTests.m */; };
+		6A129E4115FE269C00B2ED33 /* bola.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A129E4015FE269C00B2ED33 /* bola.png */; };
+		6A129E4315FE271500B2ED33 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A129E4215FE271500B2ED33 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		6A129E3315FE265B00B2ED33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A129E3515FE265B00B2ED33 /* AcelerometroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcelerometroTests.h; sourceTree = "<group>"; };
 		6A129E3615FE265B00B2ED33 /* AcelerometroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcelerometroTests.m; sourceTree = "<group>"; };
+		6A129E4015FE269C00B2ED33 /* bola.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bola.png; path = Acelerometro/bola.png; sourceTree = "<group>"; };
+		6A129E4215FE271500B2ED33 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A129E4315FE271500B2ED33 /* CoreMotion.framework in Frameworks */,
 				6A129E0C15FE265A00B2ED33 /* UIKit.framework in Frameworks */,
 				6A129E0E15FE265A00B2ED33 /* Foundation.framework in Frameworks */,
 				6A129E1015FE265A00B2ED33 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +86,7 @@
 		6A129DFC15FE265A00B2ED33 = {
 			isa = PBXGroup;
 			children = (
+				6A129E4015FE269C00B2ED33 /* bola.png */,
 				6A129E1115FE265A00B2ED33 /* Acelerometro */,
 				6A129E2F15FE265A00B2ED33 /* AcelerometroTests */,
 				6A129E0A15FE265A00B2ED33 /* Frameworks */,
@@ -100,6 +106,7 @@
 		6A129E0A15FE265A00B2ED33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A129E4215FE271500B2ED33 /* CoreMotion.framework */,
 				6A129E0B15FE265A00B2ED33 /* UIKit.framework */,
 				6A129E0D15FE265A00B2ED33 /* Foundation.framework */,
 				6A129E0F15FE265A00B2ED33 /* CoreGraphics.framework */,
@@ -225,6 +232,7 @@
 			files = (
 				6A129E1615FE265A00B2ED33 /* InfoPlist.strings in Resources */,
 				6A129E1F15FE265A00B2ED33 /* MainStoryboard.storyboard in Resources */,
+				6A129E4115FE269C00B2ED33 /* bola.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
